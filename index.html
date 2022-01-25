@@ -76,6 +76,55 @@
                 <li><a class="dropdown-item" href="#">Example</a></li>
               </ul>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Protocols
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">HTTP Protocol</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">HTTP Methods</a></li>
+                <li><a class="dropdown-item" href="#">GET</a></li>
+                <li><a class="dropdown-item" href="#">HEAD</a></li>
+                <li><a class="dropdown-item" href="#">POST</a></li>
+                <li><a class="dropdown-item" href="#">PUT</a></li>
+                <li><a class="dropdown-item" href="#">DELETE</a></li>
+                <li><a class="dropdown-item" href="#">CONNECT</a></li>
+                <li><a class="dropdown-item" href="#">TRACE</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">HTTPS Protocol</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">DNS</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">DNS Records</a></li>
+                <li><a class="dropdown-item" href="#">A Record</a></li>
+                <li><a class="dropdown-item" href="#">CNAME Record</a></li>
+                <li><a class="dropdown-item" href="#">MX Record</a></li>
+                <li><a class="dropdown-item" href="#">TXT Record</a></li>
+                <li><a class="dropdown-item" href="#">NS Record</a></li>
+                <li><a class="dropdown-item" href="#">SOA Record</a></li>
+                <li><a class="dropdown-item" href="#">SRV Record</a></li>
+                <li><a class="dropdown-item" href="#">PTR Record</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">IP</a></li>
+                <li><a class="dropdown-item" href="#">How to determine IP?</a></li>
+              </ul>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sources</a>
             </li>
@@ -106,7 +155,7 @@
             websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to
             pages created by other people, you become an active participant in the World Wide Web.
           </p>
-          <p class="lead">Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla</a></p>
+          <p class="lead">Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></p>
         </div>
       </div>
     </div>
@@ -256,7 +305,8 @@
               <h3 class="card-title">
                 Internal
               </h3>
-              <p class="card-text">by using a <span class="text-info">&ltstyle&gt</span> element in the <span class="text-info">&lthead&gt</span> section</p>
+              <p class="card-text">by using a <span class="text-info">&ltstyle&gt</span> element in the <span
+                  class="text-info">&lthead&gt</span> section</p>
 
             </div>
           </div>
@@ -267,14 +317,14 @@
               <h3 class="card-title">
                 External
               </h3>
-              <p class="card-text">by using a <span class="text-info">&ltlink&gt</span><br>element to link to an external CSS file</p>
+              <p class="card-text">by using a <span class="text-info">&ltlink&gt</span><br>element to link to an
+                external CSS file</p>
             </div>
           </div>
         </div>
       </div>
       <p class="mt-3">
-        The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will
-        use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.
+        The most common way to add CSS, is to keep the styles in external CSS files.
       </p>
     </div>
 
@@ -317,7 +367,7 @@
             font-weight: bold;
           } 
 
-          or
+          // or
 
           #idname {
             color: red;
@@ -332,6 +382,282 @@
 
   </section>
 
+  <!-- JavaScript Section -->
+
+  <section class="text-light p-5" style="background-color: #e5e5f7;
+  opacity: 1;
+  background-image:  linear-gradient(#242424 1px, transparent 1px), linear-gradient(to right, #242424 1px, #1d1d1d 1px);
+  background-size: 20px 20px;">
+    <div class="container">
+      <div class="d-sm-flex">
+        <div>
+          <h1 class="text-light fw-light">JavaScript</h1>
+          <h3 class="text-warning fw-bold">Overview</h3>
+
+          <p>
+            JavaScript is a scripting or programming language that allows you to implement complex features on web pages
+            — every time a web page does more than just sit there and display static information for you to look at —
+            displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes,
+            etc. — you can bet that JavaScript is probably involved.
+          </p>
+          <p class="lead">Source: <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">MDN Web
+              Docs</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <h3 class="text-warning fw-bold">How to use</h3>
+      <p>
+        JS can be added to HTML documents in 3 ways:
+      </p>
+      <div class="row text-center mt-3">
+        <div class="col-md">
+          <div class="card bg-dark text-light h-100">
+            <div class="card-body">
+              <h3 class="card-title">
+                Internal
+              </h3>
+              <p class="card-text">by using a <span class="text-info">&ltscript&gt</span> tag in the <span
+                  class="text-info">&lthead&gt</span> or <span class="text-info">&ltbody&gt</span> section</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light h-100">
+            <div class="card-body">
+              <h3 class="card-title">
+                External
+              </h3>
+              <p class="card-text">by using a <span class="text-info">&ltscript&gt</span><br>tag to link to an
+                external JS file</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="mt-3">
+        The most common way to add JS, is to keep the scripts in external JS file.
+      </p>
+    </div>
+
+    <div class="container mt-4">
+      <div>
+        <h3 class="text-warning fw-bold mt-4">Example</h3>
+        <pre style="background-color: #212529;">
+         <code class="text-info">
+          document.getElementById("demo").innerHTML = "Hello JavaScript";
+
+          // or
+
+          document.getElementById("demo").style.fontSize = "35px";
+
+          // or
+
+          document.getElementById("demo").style.display = "none";
+         </code>
+       </pre>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Protocols Section -->
+
+  <section class="text-light p-5" style="background-color: #e5e5f7;
+  opacity: 1;
+  background-image:  linear-gradient(#242424 1px, transparent 1px), linear-gradient(to right, #242424 1px, #1d1d1d 1px);
+  background-size: 20px 20px;">
+    <div class="container">
+      <div class="d-sm-flex">
+        <div>
+          <h1 class="text-light fw-light">Protocols</h1>
+          <h3 class="text-warning fw-bold">Overview</h3>
+
+          <p>
+            Protocol is a standard set of rules that allow electronic devices to communicate with each other.
+
+            These rules include what type of data may be transmitted, what commands are used to send and receive data,
+            and how data transfers are confirmed.
+          </p>
+          <p class="lead">Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="d-sm-flex">
+        <div>
+          <h3 class="text-warning fw-bold">HTTP Protocol</h3>
+          <p>HTTP (Hypertext Transfer Protocol) is perhaps the most popular application protocol used in the Internet
+            (or The WEB).
+
+            HTTP is an asymmetric request-response client-server protocol as illustrated. An client sends a request
+            message to an HTTP server. The server, in turn, returns a response message.
+
+            In other words, HTTP is a pull protocol, the client pulls information from the server (instead of server
+            pushes information down to the client).</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="d-sm-flex">
+        <div>
+          <h3 class="text-warning fw-bold">HTTP Methods</h3>
+          <p>HTTP (Hypertext Transfer Protocol) is perhaps the most popular application protocol used in the Internet
+            (or The WEB).
+
+            HTTP is an asymmetric request-response client-server protocol as illustrated. An client sends a request
+            message to an HTTP server. The server, in turn, returns a response message.
+
+            In other words, HTTP is a pull protocol, the client pulls information from the server (instead of server
+            pushes information down to the client).</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-1">
+      <div>
+        <h4 class="mt-3">GET</h4>
+        <p>The GET method is used to retrieve information from the given server using a given URI. Requests using GET
+          should only retrieve data and should have no other effect on the data.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">HEAD</h4>
+        <p>Same as GET, but transfers the status line and header section only.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">POST</h4>
+        <p>A POST request is used to send data to the server, for example, customer information, file upload, etc. using
+          HTML forms.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">PUT</h4>
+        <p>Replaces all current representations of the target resource with the uploaded content.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">DELETE</h4>
+        <p>Removes all current representations of the target resource given by a URI.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">CONNECT</h4>
+        <p>Establishes a tunnel to the server identified by a given URI.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">OPTIONS</h4>
+        <p>Describes the communication options for the target resource.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">TRACE</h4>
+        <p>Performs a message loop-back test along the path to the target resource.</p>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="d-sm-flex">
+        <div>
+          <h3 class="text-warning fw-bold">HTTPS Protocol</h3>
+          <p>Hypertext Transfer Protocol Secure (https) is a combination of the Hypertext Transfer Protocol (HTTP) with
+            the Secure Socket Layer (SSL)/Transport Layer Security (TLS) protocol.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="d-sm-flex">
+        <div>
+          <h3 class="text-warning fw-bold">DNS</h3>
+          <p>The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-1">
+      <div>
+        <h4 class="mt-3">A Record</h4>
+        <p>The record that holds the IP address of a domain. Learn more about the A record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">CNAME Record</h4>
+        <p>Forwards one domain or subdomain to another domain, does NOT provide an IP address. Learn more about the CNAME record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">MX Record</h4>
+        <p>Directs mail to an email server. Learn more about the MX record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">TXT Record</h4>
+        <p>Lets an admin store text notes in the record. Learn more about the TXT record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">NS Record</h4>
+        <p>Stores the name server for a DNS entry. Learn more about the NS record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">SOA Record</h4>
+        <p>Stores admin information about a domain. Learn more about the SOA record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">SRV Record</h4>
+        <p>Specifies a port for specific services. Learn more about the SRV record.</p>
+      </div>
+      <div>
+        <h4 class="mt-3">PTR Record</h4>
+        <p>Provides a domain name in reverse-lookups. Learn more about the PTR record.</p>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="d-sm-flex">
+        <div>
+          <h3 class="text-warning fw-bold">IP</h3>
+          <p>Stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <h3 class="text-warning fw-bold">How to determine the IP address of website?</h3>
+      <div class="row text-center mt-3">
+        <div class="col-md">
+          <div class="card bg-dark text-light h-100">
+            <div class="card-body">
+              <h3 class="card-title">
+                Step 1:
+              </h3>
+              <p class="card-text">At the prompt, type in tracert and leave a single space, then type in your website's address (excluding the “www.” part).</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light h-100">
+            <div class="card-body">
+              <h3 class="card-title">
+                Step 2:
+              </h3>
+              <p class="card-text">For example - tracert www.google.com</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light h-100">
+            <div class="card-body">
+              <h3 class="card-title">
+                Step 3:
+              </h3>
+              <p class="card-text">Press Enter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
   <!-- Featured Section -->
 
   <section class="p-3" style="background-color: #e5e5f7;
@@ -339,7 +665,7 @@
   background-image:  linear-gradient(#242424 1px, transparent 1px), linear-gradient(to right, #242424 1px, #1d1d1d 1px);
   background-size: 20px 20px;">
 
-    <div class="container">
+    <div class="container mt-4">
       <h1 class="text-warning text-center fw-bold">Featured websites</h1>
       <div class="row text-center">
         <div class="col-md">
