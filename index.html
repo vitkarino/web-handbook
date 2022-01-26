@@ -38,13 +38,13 @@
                 HTML
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Overview</a></li>
-                <li><a class="dropdown-item" href="#">How to use</a></li>
-                <li><a class="dropdown-item" href="#">Common tags</a></li>
+                <li><a class="dropdown-item" href="#html-overview">Overview</a></li>
+                <li><a class="dropdown-item" href="#html-using">How to use</a></li>
+                <li><a class="dropdown-item" href="#html-tags">Common tags</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Example</a></li>
+                <li><a class="dropdown-item" href="#html-example">Example</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -53,13 +53,13 @@
                 CSS
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Overview</a></li>
-                <li><a class="dropdown-item" href="#">How to use</a></li>
-                <li><a class="dropdown-item" href="#">Common properties</a></li>
+                <li><a class="dropdown-item" href="#css-overview">Overview</a></li>
+                <li><a class="dropdown-item" href="#css-using">How to use</a></li>
+                <li><a class="dropdown-item" href="#css-properties">Common properties</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Example</a></li>
+                <li><a class="dropdown-item" href="#css-example">Example</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -68,12 +68,12 @@
                 JavaScript
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Overview</a></li>
-                <li><a class="dropdown-item" href="#">How to use</a></li>
+                <li><a class="dropdown-item" href="#js-overview">Overview</a></li>
+                <li><a class="dropdown-item" href="#js-using">How to use</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Example</a></li>
+                <li><a class="dropdown-item" href="#js-example">Example</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -82,47 +82,25 @@
                 Protocols
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#protocols-overview">Overview</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">HTTP Protocol</a></li>
+                <li><a class="dropdown-item" href="#http-protocol">HTTP Protocol</a></li>
+                <li><a class="dropdown-item" href="#http-methods">HTTP Methods</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">HTTP Methods</a></li>
-                <li><a class="dropdown-item" href="#">GET</a></li>
-                <li><a class="dropdown-item" href="#">HEAD</a></li>
-                <li><a class="dropdown-item" href="#">POST</a></li>
-                <li><a class="dropdown-item" href="#">PUT</a></li>
-                <li><a class="dropdown-item" href="#">DELETE</a></li>
-                <li><a class="dropdown-item" href="#">CONNECT</a></li>
-                <li><a class="dropdown-item" href="#">TRACE</a></li>
+                <li><a class="dropdown-item" href="#https-protocol">HTTPS Protocol</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">HTTPS Protocol</a></li>
+                <li><a class="dropdown-item" href="#dns">DNS</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">DNS</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">DNS Records</a></li>
-                <li><a class="dropdown-item" href="#">A Record</a></li>
-                <li><a class="dropdown-item" href="#">CNAME Record</a></li>
-                <li><a class="dropdown-item" href="#">MX Record</a></li>
-                <li><a class="dropdown-item" href="#">TXT Record</a></li>
-                <li><a class="dropdown-item" href="#">NS Record</a></li>
-                <li><a class="dropdown-item" href="#">SOA Record</a></li>
-                <li><a class="dropdown-item" href="#">SRV Record</a></li>
-                <li><a class="dropdown-item" href="#">PTR Record</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">IP</a></li>
-                <li><a class="dropdown-item" href="#">How to determine IP?</a></li>
+                <li><a class="dropdown-item" href="#ip">IP</a></li>
+                <li><a class="dropdown-item" href="#ip-determine">How to determine IP?</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -143,7 +121,7 @@
     <div class="container">
       <div class="d-sm-flex">
         <div>
-          <h1 class="text-light fw-light">HTML</h1>
+          <h1 class="text-light fw-light" id="html-overview">HTML</h1>
           <h3 class="text-warning fw-bold">Overview</h3>
 
           <p>
@@ -160,9 +138,9 @@
       </div>
     </div>
     <div class="container mt-3">
-      <h3 class="text-warning fw-bold">How to use</h3>
+      <h3 class="text-warning fw-bold" id="html-use">How to use</h3>
       <div class="row text-center mt-3">
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -170,11 +148,10 @@
               </h3>
               <p class="card-text">I recommend you to use Visual Studio Code, because it's easy to use, lightweight
                 editor.</p>
-              <a href="" class="btn btn-primary">Visit website</a>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -185,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -212,7 +189,7 @@
     <div class="container mt-4">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">Common tags</h3>
+          <h3 class="text-warning fw-bold" id="html-tags">Common tags</h3>
           <h4 class="mt-3">&lthead&gt</h4>
           <p>This element contains meta information about the HTML page.</p>
           <p>How to code: <code class="text-info">&lthead&gt&lt/head&gt;
@@ -237,22 +214,24 @@
         <p>How to code: <code class="text-info">&lthead&gt&lt/head&gt;
         </code></p>
       </div>
+    </div>
+    <div class="container mt-4">
       <div>
-        <h3 class="text-warning fw-bold mt-4">Example</h3>
+        <h3 class="text-warning fw-bold mt-4" id="html-example">Example</h3>
         <pre style="background-color: #212529;">
          <code class="text-info">
-          &lt!DOCTYPE html&gt
-          &lthtml&gt
-          &lthead&gt
-          &lttitle&gtPage Title&lt/title&gt
-          &lt/head&gt
-          &ltbody&gt
+    &lt!DOCTYPE html&gt
+    &lthtml&gt
+    &lthead&gt
+    &lttitle&gtPage Title&lt/title&gt
+    &lt/head&gt
+    &ltbody&gt
           
-          &lth1&gtThis is a Heading&lt/h1&gt
-          &ltp&gtThis is a paragraph.&lt/p&gt
-          
-          &lt/body&gt
-          &lt/html&gt  
+    &lth1&gtThis is a Heading&lt/h1&gt
+    &ltp&gtThis is a paragraph.&lt/p&gt
+         
+    &lt/body&gt
+    &lt/html&gt  
          </code>
        </pre>
       </div>
@@ -269,7 +248,7 @@
     <div class="container">
       <div class="d-sm-flex">
         <div>
-          <h1 class="text-light fw-light">CSS</h1>
+          <h1 class="text-light fw-light" id="css-overview">CSS</h1>
           <h3 class="text-warning fw-bold">Overview</h3>
 
           <p>
@@ -284,12 +263,12 @@
       </div>
     </div>
     <div class="container mt-3">
-      <h3 class="text-warning fw-bold">How to use</h3>
+      <h3 class="text-warning fw-bold" id="css-using">How to use</h3>
       <p>
         CSS can be added to HTML documents in 3 ways:
       </p>
       <div class="row text-center mt-3">
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -299,7 +278,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -311,7 +290,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -328,10 +307,10 @@
       </p>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4" id="css-properties">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">Common properties</h3>
+          <h3 class="text-warning fw-bold" id="css-properties">Common properties</h3>
           <h4 class="mt-3">color</h4>
           <p>This property specifies the color of text.</p>
           <p>How to code: <code class="text-info">color: red;
@@ -356,25 +335,28 @@
         <p>How to code: <code class="text-info">font-weight: bold;
         </code></p>
       </div>
+    </div>
+    <div class="container mt-4">
       <div>
-        <h3 class="text-warning fw-bold mt-4">Example</h3>
+        <h3 class="text-warning fw-bold mt-3" id="css-example">Example</h3>
         <pre style="background-color: #212529;">
          <code class="text-info">
-          .classname {
-            color: red;
-            background-color: blue;
-            font-family: monospace;
-            font-weight: bold;
-          } 
+           
+    .classname {
+        color: red;
+        background-color: blue;
+        font-family: monospace;
+        font-weight: bold;
+    } 
 
-          // or
+    // or
 
-          #idname {
-            color: red;
-            background-color: blue;
-            font-family: monospace;
-            font-weight: bold;
-          } 
+    #idname {
+        color: red;
+        background-color: blue;
+        font-family: monospace;
+        font-weight: bold;
+    } 
          </code>
        </pre>
       </div>
@@ -391,7 +373,7 @@
     <div class="container">
       <div class="d-sm-flex">
         <div>
-          <h1 class="text-light fw-light">JavaScript</h1>
+          <h1 class="text-light fw-light" id="js-overview">JavaScript</h1>
           <h3 class="text-warning fw-bold">Overview</h3>
 
           <p>
@@ -407,12 +389,12 @@
       </div>
     </div>
     <div class="container mt-3">
-      <h3 class="text-warning fw-bold">How to use</h3>
+      <h3 class="text-warning fw-bold" id="js-using">How to use</h3>
       <p>
         JS can be added to HTML documents in 3 ways:
       </p>
       <div class="row text-center mt-3">
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -424,7 +406,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -443,18 +425,18 @@
 
     <div class="container mt-4">
       <div>
-        <h3 class="text-warning fw-bold mt-4">Example</h3>
+        <h3 class="text-warning fw-bold mt-4" id="js-example">Example</h3>
         <pre style="background-color: #212529;">
          <code class="text-info">
-          document.getElementById("demo").innerHTML = "Hello JavaScript";
+    document.getElementById("demo").innerHTML = "Hello JavaScript";
 
-          // or
+    // or
 
-          document.getElementById("demo").style.fontSize = "35px";
+    document.getElementById("demo").style.fontSize = "35px";
 
-          // or
+    // or
 
-          document.getElementById("demo").style.display = "none";
+    document.getElementById("demo").style.display = "none";
          </code>
        </pre>
       </div>
@@ -471,7 +453,7 @@
     <div class="container">
       <div class="d-sm-flex">
         <div>
-          <h1 class="text-light fw-light">Protocols</h1>
+          <h1 class="text-light fw-light" id="protocols-overview">Protocols</h1>
           <h3 class="text-warning fw-bold">Overview</h3>
 
           <p>
@@ -480,7 +462,7 @@
             These rules include what type of data may be transmitted, what commands are used to send and receive data,
             and how data transfers are confirmed.
           </p>
-          <p class="lead">Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></p>
+        
         </div>
       </div>
     </div>
@@ -488,7 +470,7 @@
     <div class="container mt-4">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">HTTP Protocol</h3>
+          <h3 class="text-warning fw-bold" id="http-protocol">HTTP Protocol</h3>
           <p>HTTP (Hypertext Transfer Protocol) is perhaps the most popular application protocol used in the Internet
             (or The WEB).
 
@@ -505,7 +487,7 @@
     <div class="container mt-4">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">HTTP Methods</h3>
+          <h3 class="text-warning fw-bold" id="http-methods">HTTP Methods</h3>
           <p>HTTP (Hypertext Transfer Protocol) is perhaps the most popular application protocol used in the Internet
             (or The WEB).
 
@@ -559,7 +541,7 @@
     <div class="container mt-4">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">HTTPS Protocol</h3>
+          <h3 class="text-warning fw-bold" id="https-protocol">HTTPS Protocol</h3>
           <p>Hypertext Transfer Protocol Secure (https) is a combination of the Hypertext Transfer Protocol (HTTP) with
             the Secure Socket Layer (SSL)/Transport Layer Security (TLS) protocol.</p>
         </div>
@@ -569,8 +551,9 @@
     <div class="container mt-4">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">DNS</h3>
-          <p>The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.</p>
+          <h3 class="text-warning fw-bold" id="dns">DNS</h3>
+          <p>The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or
+            other resources connected to the Internet or a private network.</p>
         </div>
       </div>
     </div>
@@ -582,7 +565,8 @@
       </div>
       <div>
         <h4 class="mt-3">CNAME Record</h4>
-        <p>Forwards one domain or subdomain to another domain, does NOT provide an IP address. Learn more about the CNAME record.</p>
+        <p>Forwards one domain or subdomain to another domain, does NOT provide an IP address. Learn more about the
+          CNAME record.</p>
       </div>
       <div>
         <h4 class="mt-3">MX Record</h4>
@@ -613,26 +597,28 @@
     <div class="container mt-4">
       <div class="d-sm-flex">
         <div>
-          <h3 class="text-warning fw-bold">IP</h3>
-          <p>Stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network.</p>
+          <h3 class="text-warning fw-bold" id="ip">IP</h3>
+          <p>Stands for "Internet Protocol," which is the set of rules governing the format of data sent via the
+            internet or local network.</p>
         </div>
       </div>
     </div>
 
     <div class="container mt-3">
-      <h3 class="text-warning fw-bold">How to determine the IP address of website?</h3>
-      <div class="row text-center mt-3">
-        <div class="col-md">
+      <h3 class="text-warning fw-bold" id="ip-determine">How to determine the IP address of website?</h3>
+      <div class="row text-center">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
                 Step 1:
               </h3>
-              <p class="card-text">At the prompt, type in tracert and leave a single space, then type in your website's address (excluding the “www.” part).</p>
+              <p class="card-text">At the prompt, type in tracert and leave a single space, then type in your website's
+                address (excluding the “www.” part).</p>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -643,7 +629,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -668,18 +654,18 @@
     <div class="container mt-4">
       <h1 class="text-warning text-center fw-bold">Featured websites</h1>
       <div class="row text-center">
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
                 W3Schools
               </h3>
               <p class="card-text">Freemium educational website for learning coding online.</p>
-              <a href="" class="btn btn-primary">Visit website</a>
+              <a href="https://www.w3schools.com/" target="_blank" class="btn btn-primary">Visit website</a>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
@@ -687,18 +673,18 @@
               </h3>
               <p class="card-text">Documentation repository and learning resource for web developers used by Mozilla,
                 Microsoft, Google, and Samsung.</p>
-              <a href="" class="btn btn-primary">Visit website</a>
+              <a href="https://developer.mozilla.org/en-US/" target="_blank" class="btn btn-primary">Visit website</a>
             </div>
           </div>
         </div>
-        <div class="col-md">
+        <div class="col-md mt-3">
           <div class="card bg-dark text-light h-100">
             <div class="card-body">
               <h3 class="card-title">
                 Google / Youtube
               </h3>
-              <p class="card-text">Here you can find everything, just "Google it".</p>
-              <a href="" class="btn btn-primary">Visit website</a>
+              <p class="card-text">A magic place, where you can find everything, if you want.</p>
+              <a href="https://c.tenor.com/kHcmsxlKHEAAAAAC/rock-one-eyebrow-raised-rock-staring.gif" target="_blank" class="btn btn-primary">Visit website</a>
             </div>
           </div>
         </div>
@@ -708,11 +694,6 @@
   <footer class="p-5 bg-dark text-center text-white position-relative">
     <div class="container">
       <div class="lead">Copyright &copy; 2022 Viktor Kisel</div>
-      <div class="h3 mt-3">
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-github"></i></a>
-      </div>
-
     </div>
   </footer>
 </body>
